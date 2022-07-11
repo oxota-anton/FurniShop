@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Saira';
+    src: local('Saira Semi Bold'), local('Saira-Semi-Bold'),
+        url('Saira-SemiBold.woff2') format('woff2'),
+        url('Saira-SemiBold.woff') format('woff'),
+        url('Saira-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }

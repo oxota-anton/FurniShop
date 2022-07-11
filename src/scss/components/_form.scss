@@ -1,0 +1,51 @@
+.form {
+	display: flex;
+	align-items: center;
+
+	&__input-email {
+		width: 384px;
+		height: 60px;
+		padding: 22px 24px;
+
+		background: #ffffff;
+		border: 0px;
+		border-radius: 8px;
+
+		font-size: 16px;
+		line-height: 16px;
+		color: #23262f;
+	}
+
+	&__button {
+		margin-left: 22px;
+	}
+}
+
+@media screen and (max-width: 1439px) {
+	.form {
+		&__input-email {
+			width: 375px;
+		}
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.form {
+		&__input-email {
+			width: 220px;
+			height: 40px;
+			padding: 14px 20px;
+
+			font-size: 12px;
+			line-height: 12px;
+		}
+
+		&__button {            
+			font-size: 12px;
+			line-height: 12px;
+            padding: 14px 24px;
+
+            margin-left: 15px;
+		}
+	}
+}

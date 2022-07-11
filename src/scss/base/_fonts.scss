@@ -1,0 +1,60 @@
+* {
+	font-family: Saira;
+	font-weight: 400;
+}
+
+/* Saira */
+
+@font-face {
+	font-family: "Saira";
+	src: local("Saira Regular"), local("Saira-Regular"),
+		url("../font/Saira-Regular/Saira-Regular.woff2") format("woff2"),
+		url("../font/Saira-Regular/Saira-Regular.woff") format("woff"),
+		url("../font/Saira-Regular/Saira-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Saira";
+	src: local("Saira Semi Bold"), local("Saira-Semi-Bold"),
+		url("../font/Saira-SemiBold/Saira-SemiBold.woff2") format("woff2"),
+		url("../font/Saira-SemiBold/Saira-SemiBold.woff") format("woff"),
+		url("../font/Saira-SemiBold/Saira-SemiBold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+/* Raleway */
+
+@font-face {
+	font-family: "Raleway";
+	src: local("Raleway Medium"), local("Raleway-Medium"),
+		url("../font/Raleway-Medium/Raleway-Medium.woff2") format("woff2"),
+		url("../font/Raleway-Medium/Raleway-Medium.woff") format("woff"),
+		url("../font/Raleway-Medium/Raleway-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Raleway";
+	src: local("Raleway Bold"), local("Raleway-Bold"),
+		url("../font/Raleway-Bold/Raleway-Bold.woff2") format("woff2"),
+		url("../font/Raleway-Bold/Raleway-Bold.woff") format("woff"),
+		url("../font/Raleway-Bold/Raleway-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* Inter */
+
+@font-face {
+	font-family: "Inter";
+	src: local("Inter Regular"), local("Inter-Regular"),
+		url("../font/Inter-Regular/Inter-Regular.woff2") format("woff2"),
+		url("../font/Inter-Regular/Inter-Regular.woff") format("woff"),
+		url("../font/Inter-Regular/Inter-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}

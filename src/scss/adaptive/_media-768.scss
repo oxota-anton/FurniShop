@@ -1,0 +1,118 @@
+@media screen and (max-width: 991px) {
+	.container {
+		max-width: 685px;
+	}
+
+	.promo {
+		&__title {
+			width: 100%;
+			font-size: 60px;
+			line-height: 66px;
+		}
+
+		&__text {
+			width: 530px;
+		}
+
+		&__button {
+			margin-top: 110px;
+		}
+
+		.item {
+			font-size: 20px;
+			line-height: 22px;
+			span {
+				font-size: 33px;
+				line-height: 33px;
+			}
+		}
+	}
+
+	.possibility {
+		&__wrap {
+			flex-direction: column-reverse;
+		}
+
+		&__bg {
+			margin-top: 15px;
+			width: 100%;
+			height: auto;
+		}
+
+		&__aside {
+			width: 100%;
+			margin-left: 0;
+		}
+
+		&__text {
+			margin-top: 20px;
+		}
+
+		.list {
+			margin-top: 30px;
+		}
+	}
+
+	.best {
+		&__wrap {
+			flex-direction: column;
+		}
+
+		&__aside {
+			width: 100%;
+		}
+
+		&__title {
+			width: 480px;
+		}
+
+		&__text {
+			margin-top: 20px;
+		}
+
+		&__bg {
+			width: 100%;
+			height: auto;
+			margin-top: 30px;
+		}
+	}
+
+	.products {
+		&__window {
+			width: 605px;
+			min-height: auto;
+		}
+		.card {
+			margin-bottom: 15px;
+		}
+	}
+
+	.review {
+        min-height: 855px;
+		position: relative;
+
+        &__wrap {
+            flex-direction: column;
+        }
+
+        .slider {
+            position: static;
+            width: 100%;
+        }
+
+        &__bg {
+            width: 100%;
+            height: auto;
+            margin-top: 15px;
+        }
+
+		.slider__controls {
+			position: absolute;
+			bottom: 50px;
+			left: 50%;
+			transform: translateX(-50%);
+
+			width: 92px;
+		}
+	}
+}

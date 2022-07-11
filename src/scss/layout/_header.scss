@@ -1,0 +1,19 @@
+.header {
+	position: absolute;
+	width: 100%;
+	transition: all 1000ms;
+	&__wrap {
+		height: 113px;
+
+		display: flex;
+		align-items: center;
+	}
+	&__nav {
+		transition: all 1000ms;
+		margin-left: auto;
+		margin-right: 50px;
+	}
+    .burger {
+        display: none;
+    }
+}

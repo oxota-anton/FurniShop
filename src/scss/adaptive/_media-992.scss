@@ -1,0 +1,75 @@
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 900px;
+    }
+
+    .possibility {
+        min-height: auto;
+        &__bg {
+            width: 420px;
+            height: 336px;
+        }
+
+        &__wrap {
+            align-items: center;
+        }
+
+        &__aside {
+            margin-top: 0;
+            width: 430px;
+        }
+
+        &__title {
+            width: 350px;
+        }
+
+        &__text {
+            margin-top: 0;
+        }
+
+        .list {
+            margin-top: 15px;
+            &__item {
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    .best {
+        min-height: auto;
+        &__aside {
+            width: 435px;
+        }
+
+        &__bg {
+            width: 420px;
+            height: 336px;
+
+        }
+    }
+
+    .products {
+        &__window {
+            width: 920px;
+        }
+    }
+
+    .review {
+        min-height: auto;
+
+        &__title {
+            width: 390px;
+        }        
+
+        .slider {
+            width: 440px;
+            margin-top: 15px;
+        }
+
+        &__bg {
+            margin-top: 0;
+            width: 420px;
+            height: 254px;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+@media screen and (max-width: 1439px) {
+	.container {
+		max-width: 1075px;
+	}
+
+	.promo {
+		background: url("../img/promo/promo__bg.png") center no-repeat;
+
+		&__title {
+			font-size: 72px;
+		}
+
+		&__text {
+			font-size: 21px;
+		}
+
+		&__button {
+			font-size: 28px;
+		}
+	}
+
+	.possibility {
+		&__bg {
+			width: 515px;
+		}
+
+		&__aside {
+			width: 500px;
+		}
+	}
+
+	.best {
+		&__wrap {
+			align-items: center;
+		}
+
+		&__bg {
+			width: 515px;
+		}
+
+		&__aside {
+			width: 500px;
+			margin-top: 0;
+		}
+	}
+	.products {
+		min-height: 1200px;
+
+		&__window {
+			width: 975px;
+			margin: 0 auto;
+			margin-top: 69px;
+		}
+		.card {
+			margin-bottom: 0;
+		}
+
+		.slider__controls {
+			bottom: -50px;
+		}
+	}
+
+    .review {
+
+        &__aside{
+            width: 500px;
+        }
+
+
+
+        &__bg {
+            width: 515px;
+        }
+    }
+
+    .join {
+        .content {
+            margin-left: 0;
+            float: right;
+        }
+    }
+}
